@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Audio } from 'expo-av';
-import SoundButton from './SoundButton'; // Importando o componente SoundButton
+import SoundButton from './SoundButton'; 
 
 const TabOne = () => {
   const [sound, setSound] = useState();
 
   useEffect(() => {
-    // Garantir que o som seja liberado quando o componente for desmontado
+    
     return sound ? () => {
       sound.unloadAsync();
     } : undefined;
