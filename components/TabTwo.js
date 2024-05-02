@@ -7,7 +7,7 @@ const TabTwo = () => {
   const [sound, setSound] = useState();
 
   useEffect(() => {
-    // Garantir que o som seja liberado quando o componente for desmontado
+   
     return sound ? () => {
       sound.unloadAsync();
     } : undefined;
