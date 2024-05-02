@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native';
-import { FontAwesome } from '@expo/vector-icons';  // Certifique-se de que o pacote @expo/vector-icons está instalado
+import { FontAwesome } from '@expo/vector-icons';  
 
 const Contact = () => {
   const openLink = (url) => {
@@ -26,7 +26,7 @@ const Contact = () => {
           <Text style={styles.linkText}>GitHub</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.button} onPress={() => openLink('http://example.com')}>
+        <TouchableOpacity style={styles.button} onPress={() => openLink('https://github.com/VirLustitiae/SoundBoard')}>
           <FontAwesome name="github" size={24} color="black" />
           <Text style={styles.linkText}>Project GitHub</Text>
         </TouchableOpacity>
