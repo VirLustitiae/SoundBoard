@@ -25,7 +25,7 @@ O projeto é organizado da seguinte forma para garantir clareza e manutenção f
 - **app.js:** Arquivo principal do aplicativo, mantido com o mínimo de código para clareza.
 
 ### Lógica de Estruturação
-Adotamos práticas de *clean code*, com separação clara entre as funções e componentes. Cada aba do aplicativo é um componente separado, assim como os botões do soundboard. Utilizamos a convenção Airbnb React/JSX Style Guide para nomenclaturas. A compilação do APK foi realizada usando eosbuild.
+Adotei práticas de *clean code*, com separação clara entre as funções e componentes. Cada aba do aplicativo é um componente separado, assim como os botões do soundboard. Utilizamos a convenção Airbnb React/JSX Style Guide para nomenclaturas. A compilação do APK foi realizada usando eosbuild.
 
 ## Desafios
 Um dos maiores desafios foi manter uma estrutura de código que facilitasse a expansão futura e a implementação de boas práticas de programação. A tentativa de integrar funcionalidades como Google login e a adição dinâmica de novas abas mostrou-se complexa, levando a uma decisão de simplificar o escopo inicial. Considerações sobre direitos autorais dos áudios e imagens ainda estão pendentes e precisarão ser resolvidas antes de uma possível monetização.
